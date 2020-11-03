@@ -1,7 +1,5 @@
 # Sarda Farms
 
-## Website built for Blue Logic
-
 ### To run this locally:
 
 1. Clone this repo to your machine
