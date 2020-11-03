@@ -1,0 +1,56 @@
+.container {
+  background-color: #000000;
+  height: 12.375rem;
+  width: 100%;
+  display: flex;
+}
+
+.appContainer {
+  margin-left: 11.4rem;
+  margin-top: 3.9rem;
+  font-weight: 900;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.socialContainer {
+  margin-top: 4.48rem;
+  text-align: center;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.appContainer,
+.socialContainer {
+  font-family: "Lato", sans-serif;
+  color: white;
+  flex: 1;
+}
+
+.downloadButton {
+  background: url(../../download_background.svg) no-repeat;
+  margin-left: 0.856rem;
+}
+
+.socialButton {
+  background-color: #d7b058;
+  border-radius: 50%;
+  height: 3.15rem;
+  width: 3.15rem;
+  margin-left: 0.525rem;
+}
+
+.socialButton,
+.downloadButton {
+  border: none;
+}
+
+.socialButton:nth-child(1),
+.downloadButton:nth-child(1) {
+  margin: 0;
+}
+
+.downloadButton img {
+  padding: 0.53rem 0.7125rem 0.43rem 0rem;
+}

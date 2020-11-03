@@ -1,0 +1,126 @@
+.container {
+  display: block;
+  width: 33.75rem;
+  height: 65.2rem;
+  margin: 9.4375rem auto 11.875rem auto;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.formTitle {
+  text-align: center;
+  font-family: "Alegreya", serif;
+  font-size: 2.625rem;
+  font-weight: 500;
+}
+.formTitle_image {
+  margin: 0.875rem 0 2rem 0;
+}
+
+.time,
+.firstName,
+.lastName,
+.email,
+.phone,
+.comments {
+  margin-top: 1rem;
+}
+
+.date {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.time {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.firstName {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.lastName {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.email {
+  grid-area: 4 / 1 / 5 / 3;
+}
+.phone {
+  grid-area: 5 / 1 / 6 / 3;
+}
+.comments {
+  grid-area: 6 / 1 / 7 / 3;
+}
+
+.firstName,
+.lastName {
+  display: inline-grid;
+  width: 50%;
+}
+
+.inputLabel,
+.inputField,
+.textArea {
+  font-size: 1.5rem;
+}
+
+.inputField,
+.textArea,
+.formButton {
+  font-family: "Calibri", serif;
+}
+
+.inputField,
+.textArea {
+  border: none;
+  width: 100%;
+}
+
+.inputLabel {
+  font-family: "Calibri Light", serif;
+  margin-top: 1.1875rem;
+  margin-bottom: 0.125rem;
+}
+
+.textArea {
+  height: 15.625rem;
+}
+
+.date_container,
+.time_container,
+.firstName_container,
+.lastName_container,
+.email_container,
+.phone_container,
+.comments_container {
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.formButton {
+  background-color: #da332e;
+  color: #ffffff;
+  border: none;
+  font-size: 0.875rem;
+  width: 13.5rem;
+  height: 3.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.28571rem;
+  border-radius: 2px;
+}
+
+.errorMessage {
+  color: red;
+  font-family: "Calibri", sans-serif;
+}

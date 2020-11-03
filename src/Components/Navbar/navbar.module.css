@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 13.25rem;
+  align-items: center;
+}
+
+.logoContainer {
+  height: 6.8rem;
+  width: 9rem;
+  margin: 0 5.25rem 0 5.25rem;
+}
+
+.link {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.link a {
+  text-decoration: none;
+  text-decoration-color: #050000;
+}
+
+.link,
+.link a,
+.link a:visited,
+a:hover,
+a:active {
+  color: #050000;
+}

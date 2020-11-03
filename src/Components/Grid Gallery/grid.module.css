@@ -1,0 +1,165 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.milkImage {
+  grid-area: 1 / 1 / 3 / 3;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: rgba(226, 218, 205, 0.46);
+}
+
+.milkImage img {
+  height: 51rem;
+  width: 23rem;
+  margin: 0 auto 0 auto;
+}
+
+.milkImageOverlay {
+  position: absolute;
+  text-align: center;
+  top: 79%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.milkImageTextOverlay {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2.25rem;
+  margin-top: 3rem;
+}
+
+.milkImageTextOverlay,
+.milkImageButton,
+.cowImageButton,
+.subImageButton {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.cowImageTextOverlay,
+.subImageTextOverlay {
+  font-family: "Alegreya", serif;
+  color: #ffffff;
+}
+
+.milkImageButton,
+.cowImageButton,
+.subImageButton {
+  font-weight: 900;
+}
+
+.milkImageButtonContainer {
+  display: block;
+}
+
+.milkImageButton {
+  display: inline;
+  border: 0.125rem solid #d7b058;
+  background: #d7b058;
+  font-size: 0.875rem;
+  color: #ffffff;
+  width: 12.905rem;
+  height: 2.625rem;
+  margin: 0 0.906rem 0 auto;
+  letter-spacing: 0.2rem;
+}
+
+.cowImage {
+  grid-area: 1 / 3 / 2 / 5;
+  height: 27.5rem;
+  width: 60rem;
+  position: relative;
+  background: #5f4c21;
+}
+.cowImage img {
+  opacity: 0.15;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.cowImageOverlay {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.cowImageButton {
+  display: block;
+  border: 0.125rem solid #ffffff;
+  background: transparent;
+  font-size: 0.875rem;
+  color: #ffffff;
+  width: 18.5rem;
+  height: 2.625rem;
+  margin: 1.25rem auto 0 auto;
+}
+
+.cowImageTextOverlay {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.subImageOverlay {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.milkCartonImage {
+  grid-area: 2 / 3 / 3 / 4;
+  height: 27.5rem;
+  width: 30rem;
+  position: relative;
+  background: #d7b058;
+}
+.milkCartonImage img {
+  opacity: 0.22;
+}
+
+.milkingImage {
+  grid-area: 2 / 4 / 3 / 5;
+  height: 27.5rem;
+  width: 30rem;
+  position: relative;
+  background: #000000;
+}
+.milkingImage img {
+  opacity: 0.47;
+}
+
+.subImageButton {
+  display: block;
+  border: 0.125rem solid #ffffff;
+  background: transparent;
+  font-size: 0.875rem;
+  color: #ffffff;
+  width: 12.9rem;
+  height: 2.625rem;
+  margin: 1.625rem auto 0 auto;
+}
+
+.subImageTextOverlay {
+  font-size: 1.9rem;
+  font-weight: 500;
+  width: 17.875rem;
+  height: 5.125rem;
+}
